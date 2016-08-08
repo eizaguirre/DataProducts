@@ -28,8 +28,8 @@ shinyUI(
                                             consumption of a car based on its transmission type, horsepower and vehicle weight.
                                             The prediction is performed using a linear regression model built from the 
                                             mtcars dataset.'),
-                                         h4('To use the application, select the Transmission type of your vehicle, the number of 
-                                            cylinders and the approximate weight of the vehicle. Next, click the submit button to 
+                                         h4('To use the application, select the Transmission type of your vehicle, the gross  
+                                            horsepower and the approximate weight of the vehicle. Next, click the submit button to 
                                             calculate the approximate miles per galon of the vehicle.'),
                                          h4('The source code of the application can be found in '
                                             , a("https://github.com/eizaguirre/DataProducts", href="https://github.com/eizaguirre/DataProducts"))
